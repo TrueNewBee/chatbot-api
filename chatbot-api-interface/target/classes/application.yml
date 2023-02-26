@@ -1,6 +1,0 @@
-server:
-  port: 8090
-
-my-chatbot-api:
-  groupId: 51112128518884
-  cookie: sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221857d4616f7699-0510035f06881cc-7b555472-1327104-1857d4616f889e%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg1N2Q0NjE2Zjc2OTktMDUxMDAzNWYwNjg4MWNjLTdiNTU1NDcyLTEzMjcxMDQtMTg1N2Q0NjE2Zjg4OWUifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221857d4616f7699-0510035f06881cc-7b555472-1327104-1857d4616f889e%22%7D; zsxq_access_token=48503C4B-AAFC-BB68-18E5-7BA5FF74057C_C9C1242161026549; abtest_env=beta; zsxqsessionid=dd7e54ce0457f1265569ddefa57189ee

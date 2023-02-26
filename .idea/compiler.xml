@@ -16,7 +16,7 @@
       <module name="chatbot-api-application" target="1.8" />
       <module name="chatbot-api-domain" target="1.8" />
       <module name="chatbot-api-infrastructure" target="1.8" />
-      <module name="chatbot-api-interface" target="1.8" />
+      <module name="chatbot-api-interface" target="8" />
       <module name="my-chatbot-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
