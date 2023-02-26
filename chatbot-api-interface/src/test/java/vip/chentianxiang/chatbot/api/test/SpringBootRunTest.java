@@ -38,7 +38,6 @@ public class SpringBootRunTest {
 
     @Resource
     private IZsxqApi zsxqApi;
-
     @Resource
     private IOpenAI openAI;
 
@@ -61,9 +60,9 @@ public class SpringBootRunTest {
 
     @Test
     public void test_openAi() throws IOException {
-        String response = openAI.doChatGPT("帮我写个冒泡排序!");
+        String response = openAI.doChatGPT("请写一个java冒泡排序");
         logger.info("测试结果: {}", JSON.toJSONString(response));
-
     }
+
 
 }
