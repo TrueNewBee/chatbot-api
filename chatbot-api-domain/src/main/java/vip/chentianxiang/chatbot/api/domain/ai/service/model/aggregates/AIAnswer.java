@@ -1,5 +1,6 @@
 package vip.chentianxiang.chatbot.api.domain.ai.service.model.aggregates;
 
+
 import lombok.Data;
 import vip.chentianxiang.chatbot.api.domain.ai.service.model.vo.Choices;
 

@@ -65,4 +65,5 @@ public class SpringBootRunTest {
         logger.info("测试结果: {}", JSON.toJSONString(response));
 
     }
+
 }
