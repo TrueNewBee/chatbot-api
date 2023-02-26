@@ -1,5 +1,7 @@
 package vip.chentianxiang.chatbot.api.test;
 
+import com.alibaba.fastjson.JSON;
+import okhttp3.*;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -10,6 +12,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.Map;
@@ -56,6 +60,63 @@ public class ApiTest {
                 "    \"image_ids\": [],\n" +
                 "    \"silenced\": false\n" +
                 "  }\n" +
+                "}";
+
+        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+        post.setEntity(stringEntity);
+
+        CloseableHttpResponse response = httpClient.execute(post);
+        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+            String res = EntityUtils.toString(response.getEntity());
+            System.out.println(res);
+        } else {
+            System.out.println(response.getStatusLine().getStatusCode());
+        }
+    }
+
+    // 调用ChatGPT 接口
+    /**
+     * curl https://api-inference.huggingface.co/models/microsoft/CodeGPT-small-java \
+     * 	-X POST \
+     * 	-d '{"inputs": "Can you please let us know more details about your "}' \
+     * 	-H "Authorization: Bearer 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"
+     */
+    /*
+    @Test
+    public void test_chatGPT() throws IOException {
+        CloseableHttpClient httpClient = HttpClientBuilder.create().build();
+
+        HttpPost post = new HttpPost("https://api-inference.huggingface.co/models/microsoft/CodeGPT-small-java");
+
+        post.addHeader("Content-Type","application/json");
+        post.addHeader("Authorization","Bearer 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");
+
+        String paramJson = "{\"inputs\": \"如何学习java\"}";
+
+        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+        post.setEntity(stringEntity);
+
+        CloseableHttpResponse response = httpClient.execute(post);
+        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+            String res = EntityUtils.toString(response.getEntity());
+            System.out.println(res);
+        } else {
+            System.out.println(response.getStatusLine().getStatusCode());
+        }
+    } */
+
+    // 测试  白嫖别人的接口就是爽
+    @Test
+    public void test_ChatGPT() throws IOException {
+        CloseableHttpClient httpClient = HttpClientBuilder.create().build();
+
+        HttpPost post = new HttpPost("https://api.forchange.cn/");
+        post.addHeader("Content-Type", "application/json");
+        // post.addHeader("Authorization", "Bearer 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");
+
+        String paramJson = "{\n" +
+                "  \"prompt\": \"Human: 如何成为狂飙中的高启强 \\nAI:\\nHuman:如何成为狂飙中的高启强\\nAI:\",\n" +
+                "  \"tokensLength\": 45\n" +
                 "}";
 
         StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
