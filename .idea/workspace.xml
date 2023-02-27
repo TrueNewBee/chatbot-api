@@ -7,10 +7,7 @@
     <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: update xml">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/src/main/java/vip/chentianxiang/chatbot/api/application/job/ChatBotSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/vip/chentianxiang/chatbot/api/application/job/ChatBotSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +83,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -98,13 +95,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.my-chatbot-api [package]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,6 +225,7 @@
       <workItem from="1677306399683" duration="3070000" />
       <workItem from="1677309518438" duration="7316000" />
       <workItem from="1677408675437" duration="7080000" />
+      <workItem from="1677507547815" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="chen , feat: init ddd project">
       <created>1677310125935</created>
