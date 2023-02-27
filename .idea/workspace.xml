@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: update xml">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 在XML配置打包插件进行build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,19 +92,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.my-chatbot-api [package]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_ChatGPT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interface" />
       <extension name="coverage">
@@ -225,7 +209,8 @@
       <workItem from="1677306399683" duration="3070000" />
       <workItem from="1677309518438" duration="7316000" />
       <workItem from="1677408675437" duration="7080000" />
-      <workItem from="1677507547815" duration="781000" />
+      <workItem from="1677507547815" duration="1197000" />
+      <workItem from="1677509015481" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="chen , feat: init ddd project">
       <created>1677310125935</created>
@@ -255,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677409311499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chen , feat: 在XML配置打包插件进行build">
+      <created>1677508390295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677508390295</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +271,8 @@
     <MESSAGE value="chen , feat: xml" />
     <MESSAGE value="chen , feat: 对接ChatGPT的代码" />
     <MESSAGE value="chen , feat: update xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: update xml" />
+    <MESSAGE value="chen , feat: 在XML配置打包插件进行build" />
+    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: 在XML配置打包插件进行build" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
