@@ -43,9 +43,9 @@ public class ChatBotSchedule {
     private IOpenAI openAI;
 
     // 表达式: cron.qqe2.com
-    // 每隔一分钟执行一次
+    // 每隔10分钟执行一次
     // @Scheduled(cron = "0 */1 * * * ?")
-    @Scheduled(cron = "0 */1 * * * ?")
+    @Scheduled(cron = "0 */10 * * * ?")
     public void run(){
         try{
             // 进行随机查看回答

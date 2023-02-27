@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 在XML配置打包插件进行build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-application/src/main/java/vip/chentianxiang/chatbot/api/application/job/ChatBotSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/vip/chentianxiang/chatbot/api/application/job/ChatBotSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/my-chatbot-api.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/my-chatbot-api.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +97,7 @@
       <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-api-domain\src\main\java\vip\chentianxiang\chatbot\api\domain\zsxq\model\vo" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.my-chatbot-api [package]">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
