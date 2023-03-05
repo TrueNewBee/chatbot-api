@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-test-weichat-interface" />
         <module name="chatbot-api-application" />
         <module name="chatbot-api-infrastructure" />
         <module name="chatbot-api-domain" />
@@ -18,6 +19,7 @@
       <module name="chatbot-api-domain" target="8" />
       <module name="chatbot-api-infrastructure" target="8" />
       <module name="chatbot-api-interface" target="8" />
+      <module name="chatbot-test-weichat-interface" target="1.8" />
       <module name="my-chatbot-api" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="chatbot-api-domain" options="-parameters" />
       <module name="chatbot-api-infrastructure" options="-parameters" />
       <module name="chatbot-api-interface" options="-parameters" />
+      <module name="chatbot-test-weichat-interface" options="-parameters" />
     </option>
   </component>
 </project>

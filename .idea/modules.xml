@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" filepath="$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/chatbot-api-infrastructure/chatbot-api-infrastructure.iml" filepath="$PROJECT_DIR$/chatbot-api-infrastructure/chatbot-api-infrastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" filepath="$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-test-weichat-interface/chatbot-test-weichat-interface.iml" filepath="$PROJECT_DIR$/chatbot-test-weichat-interface/chatbot-test-weichat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my-chatbot-api.iml" filepath="$PROJECT_DIR$/.idea/my-chatbot-api.iml" />
     </modules>
   </component>

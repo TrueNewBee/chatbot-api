@@ -1,6 +1,4 @@
-package vip.chentianxiang.chatbot.api.domain.ai;
-
-import org.springframework.stereotype.Component;
+package vip.chentianxiang.chatbottestweichatinterface.ai;
 
 import java.io.IOException;
 

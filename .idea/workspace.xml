@@ -4,24 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 完成定时刷新">
+    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 更换接口,便于部署服务器,解决端口冲突">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ChatbotTestWeichatInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/IOpenAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/OpenAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/model/aggregates/AIAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/model/vo/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/controller/WxPortalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/EngineBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/EngineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/impl/MsgEngineHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/model/BehaviorMatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/model/MessageTextEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/LogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/SubscribeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/UnsubscribeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/receive/IWxReceiveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/receive/WxReceiveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/validate/IWxValidateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/validate/WxValidateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/SendUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/SignatureUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/WeChatConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/test/java/vip/chentianxiang/chatbottestweichatinterface/ChatbotTestWeichatInterfaceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-chatbot-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-WeiChatGPT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/target/my-chatbot-api.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/target/my-chatbot-api.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-application/chatbot-api-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/chatbot-api-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/vip/chentianxiang/chatbot/api/domain/ai/IOpenAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/vip/chentianxiang/chatbot/api/domain/ai/IOpenAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +94,6 @@
         <option name="localRepository" value="D:\maven_repository" />
         <option name="mavenHome" value="D:\apache-maven-3.8.1" />
         <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
-        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -88,39 +122,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chatbot-api-interface/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-test-weichat-interface\src\main\java\vip\chentianxiang\chatbottestweichatinterface" />
+      <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-test-weichat-interface\src\main\java\vip\chentianxiang\chatbottestweichatinterface\service\logic" />
       <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-api-interface\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-api-domain\src\main\java\vip\chentianxiang\chatbot\api\domain\zsxq\model\aggregates" />
       <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-api-domain\src\main\java\vip\chentianxiang\chatbot\api\domain\zsxq\model\req" />
-      <recent name="C:\Users\Administrator\Desktop\my-chatbot-api\chatbot-api-domain\src\main\java\vip\chentianxiang\chatbot\api\domain\zsxq\model\vo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\my-chatbot-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ChatbotTestWeichatInterfaceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,6 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChatbotTestWeichatInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chatbot-test-weichat-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vip.chentianxiang.chatbottestweichatinterface.ChatbotTestWeichatInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Maven.my-chatbot-api [package]" />
@@ -247,6 +287,9 @@
       <workItem from="1677682195188" duration="559000" />
       <workItem from="1677767337982" duration="345000" />
       <workItem from="1677913497723" duration="512000" />
+      <workItem from="1677919256979" duration="6094000" />
+      <workItem from="1677999224459" duration="3069000" />
+      <workItem from="1678002334850" duration="5561000" />
     </task>
     <task id="LOCAL-00001" summary="chen , feat: init ddd project">
       <created>1677310125935</created>
@@ -290,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677510718744</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chen , feat: 更换接口,便于部署服务器,解决端口冲突">
+      <created>1677914606004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677914606004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,10 +366,14 @@
     <MESSAGE value="chen , feat: update xml" />
     <MESSAGE value="chen , feat: 在XML配置打包插件进行build" />
     <MESSAGE value="chen , feat: 完成定时刷新" />
-    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: 完成定时刷新" />
+    <MESSAGE value="chen , feat: 更换接口,便于部署服务器,解决端口冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: 更换接口,便于部署服务器,解决端口冲突" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ChatGPT$ChatbotTestWeichatInterfaceApplication.ic" NAME="ChatbotTestWeichatInterfaceApplication Coverage Results" MODIFIED="1678002185899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
