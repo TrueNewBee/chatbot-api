@@ -4,59 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 更换接口,便于部署服务器,解决端口冲突">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ChatbotTestWeichatInterfaceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/IOpenAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/OpenAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/model/aggregates/AIAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/ai/service/model/vo/Choices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/controller/WxPortalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/EngineBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/EngineConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/engine/impl/MsgEngineHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/model/BehaviorMatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/model/MessageTextEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/LogicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/SubscribeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/logic/UnsubscribeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/receive/IWxReceiveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/receive/WxReceiveServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/validate/IWxValidateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/service/validate/WxValidateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/XmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/SendUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/SignatureUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/WeChatConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/utils/sdk/XmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/test/java/vip/chentianxiang/chatbottestweichatinterface/ChatbotTestWeichatInterfaceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bb99088a-c4d9-4833-a654-f3d970751ed4" name="Default Changelist" comment="chen , feat: 引入接入微信公众号的功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/chatbot-api-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/chatbot-api-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/chatbot-api-domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/vip/chentianxiang/chatbot/api/domain/ai/IOpenAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/vip/chentianxiang/chatbot/api/domain/ai/IOpenAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/chatbot-api-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/controller/WxPortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/java/vip/chentianxiang/chatbottestweichatinterface/controller/WxPortalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-test-weichat-interface/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +240,7 @@
       <workItem from="1677913497723" duration="512000" />
       <workItem from="1677919256979" duration="6094000" />
       <workItem from="1677999224459" duration="3069000" />
-      <workItem from="1678002334850" duration="5561000" />
+      <workItem from="1678002334850" duration="7861000" />
     </task>
     <task id="LOCAL-00001" summary="chen , feat: init ddd project">
       <created>1677310125935</created>
@@ -340,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677914606004</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chen , feat: 引入接入微信公众号的功能">
+      <created>1678008110821</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678008110821</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +325,8 @@
     <MESSAGE value="chen , feat: 在XML配置打包插件进行build" />
     <MESSAGE value="chen , feat: 完成定时刷新" />
     <MESSAGE value="chen , feat: 更换接口,便于部署服务器,解决端口冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: 更换接口,便于部署服务器,解决端口冲突" />
+    <MESSAGE value="chen , feat: 引入接入微信公众号的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="chen , feat: 引入接入微信公众号的功能" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -96,10 +96,6 @@ public class WxPortalController {
             behaviorMatter.setCreateTime(new Date(Long.parseLong(message.getCreateTime()) * 1000L));
             // 处理消息
             logger.info("已经加工好微信消息");
-            // String result = wxReceiveService.doReceive(behaviorMatter);
-            // logger.info("接收微信公众号信息请求{}完成 {}", openid, result);
-            // return result;
-            logger.info("用户消息内容 {}", behaviorMatter.getContent());
             // 调用 ChatGPT接口
             String res = iOpenAI.doChatGPT(behaviorMatter.getContent());
             // 打印返回结果
